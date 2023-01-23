@@ -10,8 +10,10 @@ export default function Home() {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main>
-				<Navbar />
+			<main className='bg-white px-10'>
+				<section className='min-h-screen'>
+					<Navbar />
+				</section>
 			</main>
 		</>
 	);
