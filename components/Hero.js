@@ -1,6 +1,6 @@
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
-import justindev from "../public/wave.png";
+import justindev from "../public/avatar.png";
 
 const Hero = () => {
 	return (
@@ -18,7 +18,7 @@ const Hero = () => {
 				<AiFillLinkedin />
 				<AiFillYoutube />
 			</div>
-			<div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20'>
+			<div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
 				<Image src={justindev} layout='fill' objectFit='cover' />
 			</div>
 		</div>
