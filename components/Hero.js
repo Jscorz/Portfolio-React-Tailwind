@@ -1,6 +1,7 @@
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
-import justindev from "../public/avatars.png";
+// import justindev from "../public/avatars.png";
+import justindev from "../public/avatars-transparent.png";
 
 const Hero = () => {
 	return (
