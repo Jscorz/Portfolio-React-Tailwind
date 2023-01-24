@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 const Services = () => {
 	return (
@@ -18,6 +19,7 @@ const Services = () => {
 					development.
 				</p>
 			</div>
+			<Card />
 		</section>
 	);
 };
