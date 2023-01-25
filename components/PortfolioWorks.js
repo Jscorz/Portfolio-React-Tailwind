@@ -25,7 +25,7 @@ const PortfolioCard = () => {
 						mobile development.
 					</p>
 				</div>
-				<div>
+				<div className>
 					<div>
 						<Image src={web1} />
 					</div>
