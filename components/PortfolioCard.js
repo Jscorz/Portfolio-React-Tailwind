@@ -1,4 +1,10 @@
-import React from "react";
+import Image from "next/image";
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
 
 const PortfolioCard = () => {
 	return (
@@ -18,6 +24,36 @@ const PortfolioCard = () => {
 						I offer a multitude of services, including programming for both web and
 						mobile development.
 					</p>
+				</div>
+				<div>
+					<div>
+						<Image src={web1} />
+					</div>
+				</div>
+				<div>
+					<div>
+						<Image src={web2} />
+					</div>
+				</div>
+				<div>
+					<div>
+						<Image src={web3} />
+					</div>
+				</div>
+				<div>
+					<div>
+						<Image src={web4} />
+					</div>
+				</div>
+				<div>
+					<div>
+						<Image src={web5} />
+					</div>
+				</div>
+				<div>
+					<div>
+						<Image src={web6} />
+					</div>
 				</div>
 			</div>
 		</section>
