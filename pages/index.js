@@ -6,7 +6,7 @@ import Services from "@/components/Services";
 import PortfolioWorks from "@/components/PortfolioWorks";
 
 export default function Home() {
-	const [darkMode, setDarkMode] = useState(false);
+	const [darkMode, setDarkMode] = useState(true);
 
 	function toggleDarkMode() {
 		setDarkMode(!darkMode);
