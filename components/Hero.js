@@ -28,7 +28,7 @@ const Hero = () => {
 					Justin Scorzafava
 				</h2>
 
-				<div className={delayHasPassed ? "" : "p-[1.65rem]"}>
+				<div className={delayHasPassed ? "" : "p-6 md:p-[1.65rem]"}>
 					{delayHasPassed && (
 						<motion.h3
 							initial={{ opacity: 0 }}
@@ -43,8 +43,8 @@ const Hero = () => {
 				</div>
 
 				<p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200'>
-					Web Developer providing services for programming and design content needs. Join
-					me below and let's get to it!
+					I'm a Web Developer providing services for programming and design content needs.
+					Join me below and let's get to it!
 				</p>
 			</div>
 			<div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
