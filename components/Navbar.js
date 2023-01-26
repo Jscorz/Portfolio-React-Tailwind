@@ -1,10 +1,25 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { motion } from "framer-motion";
 
-const Navbar = ({ darkMode, toggleDarkMode }) => {
+const Navbar = ({ toggleDarkMode }) => {
 	return (
 		<nav className='py-10 mb-12 flex justify-between'>
-			<h1 className='text-xl font-burtons dark:text-gray-200'>JScorzDev</h1>
-			<ul className='flex items-center'>
+			<motion.h1
+				initial={{ x: -500, opacity: 0, scale: 0.5 }}
+				animate={{ x: 0, opacity: 1, scale: 1 }}
+				transition={{
+					duration: 1.5,
+				}}
+				className='text-xl font-burtons dark:text-gray-200'
+			>
+				JScorzDev
+			</motion.h1>
+			<motion.ul
+				initial={{ x: 500, opacity: 0, scale: 0.5 }}
+				animate={{ x: 0, opacity: 1, scale: 1 }}
+				transition={{ duration: 1.5 }}
+				className='flex items-center'
+			>
 				<li>
 					<BsFillMoonStarsFill
 						onClick={toggleDarkMode}
@@ -19,7 +34,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 						Resume
 					</a>
 				</li>
-			</ul>
+			</motion.ul>
 		</nav>
 	);
 };
