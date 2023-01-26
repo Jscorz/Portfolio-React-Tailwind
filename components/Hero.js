@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import Image from "next/image";
 // import justindev from "../public/avatar.png";
 // import justindev from "../public/avatars.png";
@@ -50,7 +50,7 @@ const Hero = () => {
 			<div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
 				<AiFillGithub />
 				<AiFillLinkedin />
-				<AiFillYoutube />
+				<AiFillMail />
 			</div>
 			<div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
 				<Image src={justindev} />
