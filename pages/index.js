@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import PortfolioWorks from "@/components/PortfolioWorks";
+import Contact from "@/components/Contact";
 
 export default function Home() {
 	const [darkMode, setDarkMode] = useState(true);
@@ -27,6 +28,7 @@ export default function Home() {
 				</section>
 				<Services />
 				<PortfolioWorks />
+				<Contact />
 			</main>
 		</div>
 	);
