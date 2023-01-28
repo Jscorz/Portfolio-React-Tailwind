@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import Image from "next/image";
-// import justindev from "../public/avatar.png";
 import justindev from "../public/avatars.png";
 // import justindev from "../public/avatars-transparent.png";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
