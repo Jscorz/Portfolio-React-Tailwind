@@ -12,7 +12,7 @@ const Navbar = ({ toggleDarkMode }) => {
 				}}
 				className='text-xl font-burtons dark:text-gray-200'
 			>
-				JScorzDev
+				JS | Dev
 			</motion.h1>
 			<motion.ul
 				initial={{ x: 500, opacity: 0, scale: 0.5 }}
