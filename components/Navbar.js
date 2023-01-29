@@ -10,9 +10,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 				transition={{
 					duration: 1.5,
 				}}
-				className='text-xl font-burtons dark:text-gray-200'
+				className='text-4xl font-burtons font-bold dark:text-gray-200'
 			>
-				JS | Dev
+				J<span>S</span>
 			</motion.h1>
 			<motion.ul
 				initial={{ x: 500, opacity: 0, scale: 0.5 }}
