@@ -43,7 +43,7 @@ const Contact = () => {
 						</form>
 					</div>
 				</div>
-				<div className='relative overflow-hidden hidden md:flex md:border-l border-gray-400'>
+				<div className='relative overflow-hidden hidden md:flex md:border-l border-gray-400 lg:w-[60%]'>
 					<Image src={contactImage} height={500} className='w-full object-cover' />
 				</div>
 			</div>
