@@ -16,19 +16,19 @@ const Contact = () => {
 						<form action='https://formspree.io/f/xjvdgyoe' method='POST'>
 							<div className='flex flex-col space-y-2'>
 								<input
-									className='border border-gray-500 rounded-md mt-4 p-2 text-gray-700 focus:border-teal-600 uppercase w-full'
+									className='border border-gray-500 rounded-md mt-4 p-2 text-gray-700 focus:border-teal-600 w-full'
 									type='text'
 									name='name'
 									placeholder='name'
 								/>
 								<input
-									className='border border-gray-500 rounded-md p-2 text-gray-700 focus:border-teal-600 uppercase'
+									className='border border-gray-500 rounded-md p-2 text-gray-700 focus:border-teal-600'
 									type='text'
 									name='email'
 									placeholder='email'
 								/>
 								<textarea
-									className='border border-gray-500 rounded-md p-2 text-gray-700 focus:border-teal-600 uppercase'
+									className='border border-gray-500 rounded-md p-2 text-gray-700 focus:border-teal-600'
 									name='message'
 									rows='5'
 									placeholder='message'
