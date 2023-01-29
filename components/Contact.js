@@ -1,5 +1,5 @@
 import Image from "next/image";
-import contactImage from "../public/contact-1.jpg";
+import contactImage from "../public/contact.png";
 
 const Contact = () => {
 	return (
