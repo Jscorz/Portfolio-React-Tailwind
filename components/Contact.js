@@ -4,7 +4,7 @@ import contactImage from "../public/contact-1.jpg";
 const Contact = () => {
 	return (
 		<section className='pb-5'>
-			<div className='shadow-xl border border-gray-200 rounded-md flex justify-center overflow-hidden'>
+			<div className='shadow-xl border border-gray-400 rounded-md flex justify-center overflow-hidden'>
 				<div className='flex flex-col justify-center mx-auto lg:w-[40%]'>
 					<div className='p-5 md:p-8 lg:p-12'>
 						<h3 className='text-2xl font-medium dark:text-white max-w-[15rem] lg:text-4xl lg:max-w-none lg:pb-4'>
@@ -43,7 +43,7 @@ const Contact = () => {
 						</form>
 					</div>
 				</div>
-				<div className='relative bg-gradient-to-b from-teal-500 overflow-hidden hidden md:flex'>
+				<div className='relative overflow-hidden hidden md:flex md:border-l border-gray-400'>
 					<Image src={contactImage} height={500} className='w-full object-cover' />
 				</div>
 			</div>
