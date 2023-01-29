@@ -14,7 +14,7 @@ const Contact = () => {
 							</span>
 						</h3>
 						<form action='https://formspree.io/f/xjvdgyoe' method='POST'>
-							<div className='flex flex-col space-y-2'>
+							<div className='flex flex-col space-y-2 lg:space-y-6'>
 								<input
 									className='border border-gray-500 rounded-md mt-4 p-2 text-gray-700 focus:border-teal-600 w-full'
 									type='text'
@@ -35,7 +35,7 @@ const Contact = () => {
 								/>
 							</div>
 							<button
-								className='uppercase w-full bg-gradient-to-r from-cyan-500 to-teal-500 text-white mt-2 px-4 py-2 rounded-md'
+								className='uppercase w-full bg-gradient-to-r from-cyan-500 to-teal-500 text-white mt-2 px-4 py-2 rounded-md lg:mt-6'
 								type='submit'
 							>
 								Submit
@@ -43,7 +43,7 @@ const Contact = () => {
 						</form>
 					</div>
 				</div>
-				<div className='relative overflow-hidden hidden md:flex md:border-l border-gray-400 lg:w-[60%]'>
+				<div className='relative overflow-hidden hidden md:flex md:border-l border-gray-400 lg:w-[50%]'>
 					<Image src={contactImage} height={500} className='w-full object-cover' />
 				</div>
 			</div>
