@@ -25,8 +25,36 @@ const PortfolioCard = () => {
 						mobile development.
 					</p>
 				</div>
-				<div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-					<div className='basis-1/3 flex-1'>
+				<div className='flex flex-col gap-10 py-10  lg:flex-row lg:flex-wrap'>
+					<div className='basis-1/3 flex-1 relative group  hover:scale-110 ease-in duration-200  '>
+						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200  lg:p-12'>
+							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
+								<div>
+									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
+									<h2>
+										Here is a description of what the project is and what it
+										does
+									</h2>
+								</div>
+								<div className='flex flex-wrap gap-2 justify-self-end'>
+									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
+										HTML
+									</span>
+									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
+										CSS
+									</span>
+									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
+										JavaScript
+									</span>
+									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
+										React
+									</span>
+									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
+										TailwindCSS
+									</span>
+								</div>
+							</div>
+						</div>
 						<Image
 							src={web1}
 							className='rounded-lg object-cover min-h-full'
