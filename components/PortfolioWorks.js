@@ -1,4 +1,6 @@
+import { useState } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -7,6 +9,8 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
 const PortfolioCard = () => {
+	const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+
 	return (
 		<section>
 			<div>
@@ -25,8 +29,18 @@ const PortfolioCard = () => {
 						mobile development.
 					</p>
 				</div>
-				<div className='flex flex-col gap-10 py-10  lg:flex-row lg:flex-wrap'>
-					<div className='basis-1/3 flex-1 relative group  hover:scale-110 ease-in duration-200  '>
+				<motion.div
+					animate={animateCard}
+					transition={{ duration: 0.5, delayChildren: 0.5 }}
+					className='flex flex-col gap-10 py-10  lg:flex-row lg:flex-wrap'
+				>
+					<motion.div
+						initial={{ opacity: 0, scale: 1 }}
+						whileInView={{ opacity: 1 }}
+						whileHover={{ scale: [1, 1.1] }}
+						transition={{ duration: 0.5 }}
+						className='basis-1/3 flex-1 relative group '
+					>
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200  lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
@@ -37,20 +51,20 @@ const PortfolioCard = () => {
 									</h2>
 								</div>
 								<div className='flex flex-wrap gap-2 justify-self-end'>
-									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
-										HTML
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>MongoDB</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
-										CSS
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Express</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
-										JavaScript
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>React</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
-										React
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Node</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 p-2 rounded-md'>
-										TailwindCSS
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>TailwindCSS</div>
 									</span>
 								</div>
 							</div>
@@ -61,7 +75,7 @@ const PortfolioCard = () => {
 							width={"100%"}
 							height={"100%"}
 						/>
-					</div>
+					</motion.div>
 
 					<div className='basis-1/3 flex-1'>
 						<Image
@@ -107,7 +121,7 @@ const PortfolioCard = () => {
 							height={"100%"}
 						/>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</section>
 	);
