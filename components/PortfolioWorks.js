@@ -35,13 +35,13 @@ const PortfolioCard = () => {
 					className='flex flex-col gap-10 py-10  lg:flex-row lg:flex-wrap'
 				>
 					<motion.div
-						initial={{ opacity: 0, scale: 1 }}
-						whileInView={{ opacity: [0, 1] }}
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: [0, 1], scale: 1 }}
 						whileHover={{ scale: [1, 1.1] }}
 						transition={{ duration: 0.5 }}
 						className='basis-1/3 flex-1 relative group '
 					>
-						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200  lg:p-12'>
+						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
 									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
@@ -76,51 +76,216 @@ const PortfolioCard = () => {
 							height={"100%"}
 						/>
 					</motion.div>
-
-					<div className='basis-1/3 flex-1'>
+					<motion.div
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: [0, 1], scale: 1 }}
+						whileHover={{ scale: [1, 1.1] }}
+						transition={{ duration: 0.5 }}
+						className='basis-1/3 flex-1 relative group '
+					>
+						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
+							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
+								<div>
+									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
+									<h2>
+										Here is a description of what the project is and what it
+										does
+									</h2>
+								</div>
+								<div className='flex flex-wrap gap-2 justify-self-end'>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>MongoDB</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Express</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>React</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Node</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>TailwindCSS</div>
+									</span>
+								</div>
+							</div>
+						</div>
 						<Image
 							src={web2}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
 						/>
-					</div>
-
-					<div className='basis-1/3 flex-1'>
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: [0, 1], scale: 1 }}
+						whileHover={{ scale: [1, 1.1] }}
+						transition={{ duration: 0.5 }}
+						className='basis-1/3 flex-1 relative group '
+					>
+						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
+							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
+								<div>
+									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
+									<h2>
+										Here is a description of what the project is and what it
+										does
+									</h2>
+								</div>
+								<div className='flex flex-wrap gap-2 justify-self-end'>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>MongoDB</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Express</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>React</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Node</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>TailwindCSS</div>
+									</span>
+								</div>
+							</div>
+						</div>
 						<Image
 							src={web3}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
 						/>
-					</div>
-
-					<div className='basis-1/3 flex-1'>
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: [0, 1], scale: 1 }}
+						whileHover={{ scale: [1, 1.1] }}
+						transition={{ duration: 0.5 }}
+						className='basis-1/3 flex-1 relative group '
+					>
+						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
+							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
+								<div>
+									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
+									<h2>
+										Here is a description of what the project is and what it
+										does
+									</h2>
+								</div>
+								<div className='flex flex-wrap gap-2 justify-self-end'>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>MongoDB</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Express</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>React</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Node</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>TailwindCSS</div>
+									</span>
+								</div>
+							</div>
+						</div>
 						<Image
 							src={web4}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
 						/>
-					</div>
-
-					<div className='basis-1/3 flex-1'>
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: [0, 1], scale: 1 }}
+						whileHover={{ scale: [1, 1.1] }}
+						transition={{ duration: 0.5 }}
+						className='basis-1/3 flex-1 relative group '
+					>
+						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
+							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
+								<div>
+									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
+									<h2>
+										Here is a description of what the project is and what it
+										does
+									</h2>
+								</div>
+								<div className='flex flex-wrap gap-2 justify-self-end'>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>MongoDB</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Express</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>React</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Node</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>TailwindCSS</div>
+									</span>
+								</div>
+							</div>
+						</div>
 						<Image
 							src={web5}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
 						/>
-					</div>
-
-					<div className='basis-1/3 flex-1'>
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0, scale: 0 }}
+						whileInView={{ opacity: [0, 1], scale: 1 }}
+						whileHover={{ scale: [1, 1.1] }}
+						transition={{ duration: 0.5 }}
+						className='basis-1/3 flex-1 relative group '
+					>
+						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
+							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
+								<div>
+									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
+									<h2>
+										Here is a description of what the project is and what it
+										does
+									</h2>
+								</div>
+								<div className='flex flex-wrap gap-2 justify-self-end'>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>MongoDB</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Express</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>React</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>Node</div>
+									</span>
+									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>TailwindCSS</div>
+									</span>
+								</div>
+							</div>
+						</div>
 						<Image
 							src={web6}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
 						/>
-					</div>
+					</motion.div>
 				</motion.div>
 			</div>
 		</section>
