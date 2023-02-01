@@ -36,7 +36,7 @@ const PortfolioCard = () => {
 				>
 					<motion.div
 						initial={{ opacity: 0, scale: 1 }}
-						whileInView={{ opacity: 1 }}
+						whileInView={{ opacity: [0, 1] }}
 						whileHover={{ scale: [1, 1.1] }}
 						transition={{ duration: 0.5 }}
 						className='basis-1/3 flex-1 relative group '
