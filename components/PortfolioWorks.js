@@ -278,7 +278,7 @@ const PortfolioCard = () => {
 								</div>
 								<div className='flex flex-wrap gap-2 justify-self-end'>
 									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
-										<div>MongoDB</div>
+										<div>MongoDB(NoSQL)</div>
 									</span>
 									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Express</div>
