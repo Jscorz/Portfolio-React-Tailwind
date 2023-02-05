@@ -12,7 +12,7 @@ const Contact = () => {
 							I'd Love to Hear from you,<br></br>
 							<span className='text-gray-400 font-medium'>
 								Get in touch
-								<span className='text-4xl text-teal-600 p-3'>👋</span>
+								<span className='text-4xl text-teal-600 p-3 animate-pulse'>👋</span>
 							</span>
 						</h3>
 						<form action='https://formspree.io/f/xjvdgyoe' method='POST'>
