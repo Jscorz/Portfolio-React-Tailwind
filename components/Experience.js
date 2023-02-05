@@ -17,14 +17,14 @@ const Experience = () => {
 			</div>
 			<p className='text-gray-700 text-sm dark:text-gray-200'>February/2022 - Present</p>
 			<div className='grid grid-cols-10 items-center text-gray-800 py-1'>
-				<FaAngleDoubleRight className='text-teal-600 col-start-1 col-span-1'></FaAngleDoubleRight>
+				<FaAngleDoubleRight className='text-teal-600 col-start-1 col-span-1 xl:translate-x-16'></FaAngleDoubleRight>
 				<p className='col-span-9 text-gray-700 dark:text-gray-200'>
 					Revolutionzed Frontend operations by boosting website perforamnce by a
 					substantial 40% through strategic improvements to the Frontend stack
 				</p>
 			</div>
 			<div className='grid grid-cols-10 items-center text-gray-800 py-1'>
-				<FaAngleDoubleRight className='text-teal-600 col-start-1 col-span-1'></FaAngleDoubleRight>
+				<FaAngleDoubleRight className='text-teal-600 col-start-1 col-span-1 xl:translate-x-16'></FaAngleDoubleRight>
 				<p className='col-span-9 text-gray-700 dark:text-gray-200'>
 					Leveraged expertise in responsive web design to craft visually stunning and
 					user-friendly websites resulting in increased client acquisition and a boosted
@@ -32,7 +32,7 @@ const Experience = () => {
 				</p>
 			</div>
 			<div className='grid grid-cols-10 items-center text-gray-800 py-1'>
-				<FaAngleDoubleRight className='text-teal-600 col-start-1 col-span-1'></FaAngleDoubleRight>
+				<FaAngleDoubleRight className='text-teal-600 col-start-1 col-span-1 xl:translate-x-16'></FaAngleDoubleRight>
 				<p className='col-span-9 text-gray-700 dark:text-gray-200'>
 					Optimized clients' web presence and drove organic traffic growth through expert
 					implementation of SEO strategies, strategic keyword optimization, and
@@ -40,7 +40,7 @@ const Experience = () => {
 				</p>
 			</div>
 			<div className='grid grid-cols-10 items-center text-gray-800 py-1'>
-				<FaAngleDoubleRight className='text-teal-600 col-start-1 col-span-1'></FaAngleDoubleRight>
+				<FaAngleDoubleRight className='text-teal-600 col-start-1 col-span-1 xl:translate-x-16'></FaAngleDoubleRight>
 				<p className='col-span-9 text-gray-700 dark:text-gray-200'>
 					Crafted compelling proposals and meticulously developed project schedules for
 					multiple website development and maintenance intiatives, ensuring seamless
