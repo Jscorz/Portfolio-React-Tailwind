@@ -2,6 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
+import { FaGithubSquare, FaShareSquare } from "react-icons/fa";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -65,28 +66,37 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
-									<h2>
-										Here is a description of what the project is and what it
-										does
+									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h2 className='text-sm md:text-base'>
+										A full-stack project to generate custom user workouts
+										including gifs to explain exercises, custom stretching
+										routines, and allow users to track workouts
 									</h2>
 								</div>
-								<div className='flex flex-wrap gap-2 justify-self-end'>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+								<div className='flex flex-wrap  justify-self-end md:gap-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>MongoDB</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Express</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>React</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Node</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>TailwindCSS</div>
 									</span>
+								</div>
+								<div className='flex space-x-2 md:text-3xl'>
+									<a href='#' target='_blank'>
+										<FaGithubSquare className='project-icon'></FaGithubSquare>
+									</a>
+									<a href='#' target='_blank'>
+										<FaShareSquare className='project-icon'></FaShareSquare>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -107,33 +117,42 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
-									<h2>
-										Here is a description of what the project is and what it
-										does
+									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h2 className='text-sm md:text-base'>
+										A full-stack project to generate custom user workouts
+										including gifs to explain exercises, custom stretching
+										routines, and allow users to track workouts
 									</h2>
 								</div>
-								<div className='flex flex-wrap gap-2 justify-self-end'>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+								<div className='flex flex-wrap  justify-self-end md:gap-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>MongoDB</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Express</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>React</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Node</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>TailwindCSS</div>
 									</span>
+								</div>
+								<div className='flex space-x-2 md:text-3xl'>
+									<a href='#' target='_blank'>
+										<FaGithubSquare className='project-icon'></FaGithubSquare>
+									</a>
+									<a href='#' target='_blank'>
+										<FaShareSquare className='project-icon'></FaShareSquare>
+									</a>
 								</div>
 							</div>
 						</div>
 						<Image
-							src={web2}
+							src={web1}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
@@ -149,33 +168,42 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
-									<h2>
-										Here is a description of what the project is and what it
-										does
+									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h2 className='text-sm md:text-base'>
+										A full-stack project to generate custom user workouts
+										including gifs to explain exercises, custom stretching
+										routines, and allow users to track workouts
 									</h2>
 								</div>
-								<div className='flex flex-wrap gap-2 justify-self-end'>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+								<div className='flex flex-wrap  justify-self-end md:gap-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>MongoDB</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Express</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>React</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Node</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>TailwindCSS</div>
 									</span>
+								</div>
+								<div className='flex space-x-2 md:text-3xl'>
+									<a href='#' target='_blank'>
+										<FaGithubSquare className='project-icon'></FaGithubSquare>
+									</a>
+									<a href='#' target='_blank'>
+										<FaShareSquare className='project-icon'></FaShareSquare>
+									</a>
 								</div>
 							</div>
 						</div>
 						<Image
-							src={web3}
+							src={web1}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
@@ -191,33 +219,42 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
-									<h2>
-										Here is a description of what the project is and what it
-										does
+									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h2 className='text-sm md:text-base'>
+										A full-stack project to generate custom user workouts
+										including gifs to explain exercises, custom stretching
+										routines, and allow users to track workouts
 									</h2>
 								</div>
-								<div className='flex flex-wrap gap-2 justify-self-end'>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+								<div className='flex flex-wrap  justify-self-end md:gap-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>MongoDB</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Express</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>React</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Node</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>TailwindCSS</div>
 									</span>
+								</div>
+								<div className='flex space-x-2 md:text-3xl'>
+									<a href='#' target='_blank'>
+										<FaGithubSquare className='project-icon'></FaGithubSquare>
+									</a>
+									<a href='#' target='_blank'>
+										<FaShareSquare className='project-icon'></FaShareSquare>
+									</a>
 								</div>
 							</div>
 						</div>
 						<Image
-							src={web4}
+							src={web1}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
@@ -233,33 +270,42 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
-									<h2>
-										Here is a description of what the project is and what it
-										does
+									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h2 className='text-sm md:text-base'>
+										A full-stack project to generate custom user workouts
+										including gifs to explain exercises, custom stretching
+										routines, and allow users to track workouts
 									</h2>
 								</div>
-								<div className='flex flex-wrap gap-2 justify-self-end'>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+								<div className='flex flex-wrap  justify-self-end md:gap-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>MongoDB</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Express</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>React</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Node</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>TailwindCSS</div>
 									</span>
+								</div>
+								<div className='flex space-x-2 md:text-3xl'>
+									<a href='#' target='_blank'>
+										<FaGithubSquare className='project-icon'></FaGithubSquare>
+									</a>
+									<a href='#' target='_blank'>
+										<FaShareSquare className='project-icon'></FaShareSquare>
+									</a>
 								</div>
 							</div>
 						</div>
 						<Image
-							src={web5}
+							src={web1}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
@@ -275,33 +321,42 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Project Name</h3>
-									<h2>
-										Here is a description of what the project is and what it
-										does
+									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h2 className='text-sm md:text-base'>
+										A full-stack project to generate custom user workouts
+										including gifs to explain exercises, custom stretching
+										routines, and allow users to track workouts
 									</h2>
 								</div>
-								<div className='flex flex-wrap gap-2 justify-self-end'>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
-										<div>MongoDB(NoSQL)</div>
+								<div className='flex flex-wrap  justify-self-end md:gap-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+										<div>MongoDB</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Express</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>React</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>Node</div>
 									</span>
-									<span className='bg-gray-200 text-gray-900 text-sm p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
+									<span className='bg-gray-200 text-gray-900 text-xs p-1 rounded-md flex justify-center items-center md:text-base md:p-2'>
 										<div>TailwindCSS</div>
 									</span>
+								</div>
+								<div className='flex space-x-2 md:text-3xl'>
+									<a href='#' target='_blank'>
+										<FaGithubSquare className='project-icon'></FaGithubSquare>
+									</a>
+									<a href='#' target='_blank'>
+										<FaShareSquare className='project-icon'></FaShareSquare>
+									</a>
 								</div>
 							</div>
 						</div>
 						<Image
-							src={web6}
+							src={web1}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
