@@ -1,5 +1,6 @@
 import Image from "next/image";
 import contactImage from "../public/contact.png";
+import { motion } from "framer-motion";
 
 const Contact = () => {
 	return (
@@ -10,7 +11,8 @@ const Contact = () => {
 						<h3 className='text-2xl font-medium dark:text-white max-w-[15rem] lg:text-4xl lg:max-w-none lg:pb-4'>
 							I'd Love to Hear from you,<br></br>
 							<span className='text-gray-400 font-medium'>
-								Get in touch<span className='text-4xl text-teal-600 p-3'>👋</span>
+								Get in touch
+								<span className='text-4xl text-teal-600 p-3'>👋</span>
 							</span>
 						</h3>
 						<form action='https://formspree.io/f/xjvdgyoe' method='POST'>
