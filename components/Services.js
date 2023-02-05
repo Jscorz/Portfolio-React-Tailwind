@@ -5,7 +5,11 @@ const Services = () => {
 	return (
 		<section>
 			<div>
-				<h3 className='text-3xl pb-1 pt-8 dark:text-gray-200'>Services I offer</h3>
+				<div className='flex items-center py-8'>
+					<h1 className='text-gray-900 text-4xl font-bold border-b-2 border-b-teal-700 dark:text-[#f1f1f1]'>
+						Services I offer
+					</h1>
+				</div>
 				<p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
 					Since the beginning of my journey as a web developer/designer, I've done remote
 					work for
