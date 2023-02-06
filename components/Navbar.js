@@ -38,9 +38,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
 				)}
 				<li>
 					<a
-						// rel='noreferrer'
-						// href={resume}
-						// target='_blank'
+						rel='noreferrer'
+						href='../Resume-1.pdf'
+						target='_blank'
 						className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
 					>
 						Resume
