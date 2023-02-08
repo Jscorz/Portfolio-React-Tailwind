@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
 	return (
-		<section className='pb-5'>
+		<section id='contact' className='pb-5'>
 			<div className='shadow-xl border border-gray-400 rounded-md flex justify-center overflow-hidden'>
 				<div className='flex flex-col justify-center mx-auto lg:w-[40%]'>
 					<div className='p-5 md:p-8 lg:p-12'>
