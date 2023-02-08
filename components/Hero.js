@@ -64,7 +64,7 @@ const Hero = () => {
 						to='contact'
 						spy={true}
 						smooth={true}
-						offset={-100}
+						offset={0}
 						duration={800}
 						className='hover:text-teal-600 transition-all'
 					>
