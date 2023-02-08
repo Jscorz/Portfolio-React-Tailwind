@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 import Image from "next/image";
 import justindev from "../public/avatars.png";
-// import justindev from "../public/avatars-transparent.png";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const Hero = () => {
 	const [delayHasPassed, setDelayHasPassed] = useState(false);
@@ -60,9 +60,16 @@ const Hero = () => {
 					>
 						<AiFillLinkedin />
 					</a>
-					<a className='hover:text-teal-600 transition-all' href='#contact'>
+					<Link
+						to='contact'
+						spy={true}
+						smooth={true}
+						offset={-100}
+						duration={500}
+						className='hover:text-teal-600 transition-all'
+					>
 						<AiFillMail />
-					</a>
+					</Link>
 				</div>
 			</div>
 
