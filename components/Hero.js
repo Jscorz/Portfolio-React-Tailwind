@@ -65,7 +65,7 @@ const Hero = () => {
 						spy={true}
 						smooth={true}
 						offset={-100}
-						duration={500}
+						duration={800}
 						className='hover:text-teal-600 transition-all'
 					>
 						<AiFillMail />
