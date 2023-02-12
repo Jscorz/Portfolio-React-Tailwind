@@ -117,7 +117,7 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h3 className='md: text-lg md:pb-12'>Shoes-In-Stock</h3>
 									<h2 className='text-sm md:text-base'>
 										A full-stack project to generate custom user workouts
 										including gifs to explain exercises, custom stretching
@@ -152,7 +152,7 @@ const PortfolioCard = () => {
 							</div>
 						</div>
 						<Image
-							src={web1}
+							src={web2}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
@@ -168,7 +168,7 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h3 className='md: text-lg md:pb-12'>Free Gamer</h3>
 									<h2 className='text-sm md:text-base'>
 										A full-stack project to generate custom user workouts
 										including gifs to explain exercises, custom stretching
@@ -203,7 +203,7 @@ const PortfolioCard = () => {
 							</div>
 						</div>
 						<Image
-							src={web1}
+							src={web3}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
@@ -219,7 +219,7 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h3 className='md: text-lg md:pb-12'>Meals-2-U</h3>
 									<h2 className='text-sm md:text-base'>
 										A full-stack project to generate custom user workouts
 										including gifs to explain exercises, custom stretching
@@ -254,7 +254,7 @@ const PortfolioCard = () => {
 							</div>
 						</div>
 						<Image
-							src={web1}
+							src={web4}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
@@ -270,7 +270,7 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h3 className='md: text-lg md:pb-12'>Modern Styles</h3>
 									<h2 className='text-sm md:text-base'>
 										A full-stack project to generate custom user workouts
 										including gifs to explain exercises, custom stretching
@@ -305,7 +305,7 @@ const PortfolioCard = () => {
 							</div>
 						</div>
 						<Image
-							src={web1}
+							src={web5}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
@@ -321,7 +321,9 @@ const PortfolioCard = () => {
 						<div className='-z-20 absolute top-0-left-0 w-full h-full bg-gradient-to-b from-cyan-500/90 to-gray-900/90 text-gray-100 p-4 rounded-md group-hover:z-20 ease-in duration-200 overflow-hidden lg:p-12'>
 							<div className='flex flex-col space-y-4 h-full w-full justify-between'>
 								<div>
-									<h3 className='md: text-lg md:pb-12'>Reps Logger</h3>
+									<h3 className='md: text-lg md:pb-12'>
+										Method Of Loci Memory Technique Application
+									</h3>
 									<h2 className='text-sm md:text-base'>
 										A full-stack project to generate custom user workouts
 										including gifs to explain exercises, custom stretching
@@ -356,7 +358,7 @@ const PortfolioCard = () => {
 							</div>
 						</div>
 						<Image
-							src={web1}
+							src={web6}
 							className='rounded-lg object-cover min-h-full'
 							width={"100%"}
 							height={"100%"}
